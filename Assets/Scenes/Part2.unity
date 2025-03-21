@@ -11107,7 +11107,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Part 2
+  m_text: Part 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bc8cb662ceb61422fad5092f42a3c59a, type: 2}
   m_sharedMaterial: {fileID: 2574492658594138659, guid: bc8cb662ceb61422fad5092f42a3c59a,
@@ -15654,7 +15654,7 @@ GameObject:
   - component: {fileID: 1566287659}
   - component: {fileID: 1566287658}
   m_Layer: 5
-  m_Name: Part2 Button
+  m_Name: Part1 Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15726,7 +15726,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1539232724}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadPart2
+        m_MethodName: LoadPart1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
