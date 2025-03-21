@@ -982,8 +982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.023987, y: -125.829575}
-  m_SizeDelta: {x: 1752.8, y: 279.4083}
+  m_AnchoredPosition: {x: -0.023987, y: 97}
+  m_SizeDelta: {x: 1752.8, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269282559
 MonoBehaviour:
@@ -1927,7 +1927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.023987, y: -161.96228}
+  m_AnchoredPosition: {x: -0.023987, y: -63}
   m_SizeDelta: {x: 1752.8, y: 279.4083}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &605768799
@@ -2002,8 +2002,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23
-  m_fontSizeBase: 23
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3011,8 +3011,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.029297, y: 95.71852}
-  m_SizeDelta: {x: 1752.8, y: 141.6737}
+  m_AnchoredPosition: {x: -0.029297, y: 136}
+  m_SizeDelta: {x: 1752.8, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &993129942
 MonoBehaviour:
@@ -3034,13 +3034,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '.it, and .s3m. Unity can handle mono, stereo, and multichannel audio (up
-    to eight channels)
-
-
-    In a Unity Project, Audio Clips are usually placed in
-    the Assets folder. Otherwise, they can be downloaded into the project during
-    Play mode.'
+  m_text: In a Unity Project, Audio Clips are usually placed in the Assets folder.
+    Otherwise, they can be downloaded into the project during Play mode.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bc8cb662ceb61422fad5092f42a3c59a, type: 2}
   m_sharedMaterial: {fileID: 2574492658594138659, guid: bc8cb662ceb61422fad5092f42a3c59a,
@@ -3068,8 +3063,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5502,9 +5497,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <b>Audio Clips</b>  in Unity are assets that contain audio data used by
+  m_text: '<b>Audio Clips</b>  in Unity are assets that contain audio data used by
     Audio Sources. They support various formats including .aif, .wav, .mp3, and .ogg,
-    as well as tracker modules like .xm, .mod,
+    as well as tracker modules like .xm, .mod, .it, and .s3m. Unity can handle mono,
+    stereo, and multichannel audio (up to eight channels)
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bc8cb662ceb61422fad5092f42a3c59a, type: 2}
   m_sharedMaterial: {fileID: 2574492658594138659, guid: bc8cb662ceb61422fad5092f42a3c59a,
@@ -5532,8 +5530,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
