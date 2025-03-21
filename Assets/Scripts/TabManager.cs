@@ -49,6 +49,15 @@ public class TabManager : MonoBehaviour
             tabs[4].SetActive(true);
         }
     }
+
+    public void OpenTab6()
+    {
+        if (tabs[5] != null)
+        {
+            CloseAllTabs();
+            tabs[5].SetActive(true);
+        }
+    }
     
     private void CloseAllTabs()
     {
